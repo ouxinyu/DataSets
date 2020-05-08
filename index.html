@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<!-- 
+  @Author: Xinyu Ou
+  @Date:   2019-12-04 11:04:20
+  @Last Modified by:   Your name
+  @Last Modified time: 2020-05-07 22:16:52
+-->
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>数据集(Datasets)</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style type="text/css">
+        html {
+            height: 100%;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        body {
+            font: normal 1em 'trebuchet ms', arial, sans-serif;
+            color: #5D5D5D;
+        }
+        
+        h1 {
+            text-align: center;
+            font: bold 200% 'century gothic', arial, sans-serif;
+            margin: 20px 0;
+            padding: 15px 0 5px 0;
+        }
+        
+        h2 {
+            text-align: center;
+            line-height: 2em;
+            margin-top: 30px;
+        }
+        
+        h3 {
+            font: normal 125% 'century gothic', arial, sans-serif;
+            color: #43423F;
+            margin: 0 0 15px 0;
+            padding: 15px 0 5px 0;
+        }
+        
+        p {
+            line-height: 1.8em;
+        }
+        
+        a,
+        a:hover {
+            outline: none;
+            text-decoration: none;
+            color: #A4AA04;
+        }
+        
+        a:hover {
+            text-decoration: none;
+            color: #5D5D5D;
+        }
+        
+        #Notice {
+            margin: 20px 0;
+            width: 100%;
+            background-color: seashell;
+        }
+        
+        #Documents {
+            margin: 20px 0;
+            width: 100%;
+        }
+        
+        #NoticeContent,
+        .DocumentsContent {
+            width: 1280px;
+            margin: 0 auto;
+            line-height: 1.8em;
+        }
+        
+        #Syllabus {
+            width: 1280px;
+            margin: 0 auto;
+        }
+        
+        #Syllabus table {
+            width: 100%;
+        }
+        
+        #Syllabus td {
+            margin: 10px;
+            border-bottom: silver 1px solid;
+            vertical-align: top;
+            padding: 10px;
+        }
+        
+        .SyllabusTitle {
+            height: 40px;
+            line-height: 40px;
+            background-color: whitesmoke;
+        }
+        
+        .SyllabusDiscussion {
+            background-color: lavender;
+        }
+        
+        #Syllabus li {
+            line-height: 30px;
+            list-style-type: none;
+            text-indent: 2em;
+            text-align: justify;
+        }
+        
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <h1>数据集（Datasets）</h1>
+    <div id="Notice">
+        <div id="NoticeContent">
+            <br />
+            <p style="text-indent: 2em;">以下数据集都来源于公开数据集，主要用于《机器学习》、《深度学习》、《计算机视觉》等课程教学使用。</p>
+            <br />
+        </div>
+    </div>
+
+    <div id="Syllabus">
+        <table>
+            <tr class="SyllabusTitle">
+                <th style="width:50px;text-align: center;">序号</th>
+                <th style="width:180px;">名称</th>
+                <th style="width:auto;">数据集描述</th>
+                <th style="width:200px;">课程</th>
+                <th style="width:150px;">下载</th>
+            </tr>
+            <tr>
+                <td style="text-align:center;">1</td>
+                <td>鸢尾花数据集</td>
+                <td>
+                    <ul>
+                        <li>鸢尾花数据集最初由Edgar Anderson 测量得到，而后在著名的统计学家和生物学家R.A Fisher于1936年发表的文章「The use of multiple measurements in taxonomic problems」中被使用，用其作为线性判别分析（Linear Discriminant Analysis）的一个例子，证明分类的统计方法，从此而被众人所知，尤其是在机器学习这个领域。</li>
+                        <li>鸢尾花数据集共收集了三类鸢尾花，即Setosa鸢尾花、Versicolour鸢尾花和Virginica鸢尾花，每一类鸢尾花收集了50条样本记录，共计150条。数据集包括4个属性，分别为花萼的长、花萼的宽、花瓣的长和花瓣的宽。</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>《机器学习》</li>
+                        <li>《机器学习实训》</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="http://archive.ics.uci.edu/ml/datasets/Iris" target="_blank ">[官网]</a></li>
+                        <li><a href="https://aistudio.baidu.com/aistudio/datasetdetail/32711" target="_blank ">[AI Studio]</a></li>
+                        <li><a href="# " target="_blank ">[本站]</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">2</td>
+                <td>MNIST手写字体</td>
+                <td>
+                    <ul>
+                        <li>MNIST数据集包含70000个样本，其中训练集60000个，测试集10000个。每个样本都分为图片和标签，图片是28*28的像素矩阵，标签是0~9的10个数字。</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>《机器学习》</li>
+                        <li>《机器学习实训》</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="http://yann.lecun.com/exdb/mnist/" target="_blank ">[官网]]</a></li>
+                        <li><a href="https://aistudio.baidu.com/aistudio/datasetdetail/33695" target="_blank ">[AI Studio]</a></li>
+                        <li><a href="# " target="_blank ">[本站]</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">3</td>
+                <td>Adult成人相亲</td>
+                <td>
+                    <ul>
+                        <li>该数据集由Barry Becker从1994人口普查数据库中提取得到。该数据集包含48842个连续或离散的实例。其中训练集32561个，测试集16281个。 预测任务是确定一个人年薪是否超过50K。</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>《机器学习》</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="http://archive.ics.uci.edu/ml/datasets/Adult" target="_blank ">[官网]</a></li>
+                        <li><a href="https://aistudio.baidu.com/aistudio/datasetdetail/33808" target="_blank ">[AI Studio]</a></li>
+                        <li><a href="# " target="_blank ">[本站]</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">4</td>
+                <td>糖尿病预测数据集</td>
+                <td>
+                    <ul>
+                        <li>该数据集包含数据集中共包含768个样本(entries)，每个样本8种特征。其中Outcome是样本的标签（即类别），0表示没有糖尿病，1表示患有糖尿病。</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>《机器学习》</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="https://aistudio.baidu.com/aistudio/datasetdetail/33810" target="_blank ">[AI Studio]</a></li>
+                        <li><a href="# " target="_blank ">[本站]</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">5</td>
+                <td>LFW人脸识别数据集</td>
+                <td>
+                    <ul>
+                        <li>LFW (Labled Faces in the Wild)人脸数据集：是目前人脸识别的常用测试集，其中提供的人脸图片均来源于生活中的自然场景，因此识别难度会增大，尤其由于多姿态、光照、表情、年龄、遮挡等因素影响导致即使同一人的照片差别也很大。并且有些照片中可能不止一个人脸出现，对这些多人脸图像仅选择中心坐标的人脸作为目标，其他区域的视为背景干扰。LFW数据集共有13233张人脸图像，每张图像均给出对应的人名，共有5749人，且绝大部分人仅有一张图片。每张图片的尺寸为250X250，绝大部分为彩色图像，但也存在少许黑白人脸图片。当然，在深度学习流行的今天，LFW数据集的识别率已经达到99.78%。</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>《机器学习》</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="http://vis-www.cs.umass.edu/lfw/index.html" target="_blank ">[官网]</a></li>
+                        <li><a href="https://aistudio.baidu.com/aistudio/datasetdetail/33811" target="_blank ">[AI Studio]</a></li>
+                        <li><a href="# " target="_blank ">[本站]</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">6</td>
+                <td>Stock股票信息</td>
+                <td>
+                    <ul>
+                        <li>该数据集是2020年2月15日收盘之后从证券交易软件中导出的数据。包含3776个样本，每个样本包含10种特征。可以用来演示各种回归算法，预测股票的涨跌。</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>《机器学习》</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="https://aistudio.baidu.com/aistudio/datasetdetail/33812" target="_blank ">[AI Studio]</a></li>
+                        <li><a href="# " target="_blank ">[本站]</a></li>
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td style="text-align:center;">7</td>
+                <td>Caltech101-16类</td>
+                <td>
+                    <ul>
+                        <li>Caltech101的图像分类中抽取其中16类。</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li>《深度学习实训》</li>
+                    </ul>
+                </td>
+                <td>
+                    <ul>
+                        <li><a href="http://www.vision.caltech.edu/Image_Datasets/Caltech101/" target="_blank ">[官网]</a></li>
+                        <li><a href="https://aistudio.baidu.com/aistudio/datasetdetail/33809" target="_blank ">[AI Studio]</a></li>
+                        <li><a href="# " target="_blank ">[本站]</a></li>
+                    </ul>
+                </td>
+            </tr>
+        </table>
+
+    </div>
+
+    <br />
+    <br />
+    <br />
+</body>
+
+</html>
